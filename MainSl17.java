@@ -3,7 +3,7 @@ public class MainSl17 {
    public static void main(String [] args){
       
       Scanner console = new Scanner(System.in);
-      System.out.println("Which shape you need are for, press 1 for circle, 2 for rectangle or 3 for triangle");
+      System.out.println("Which shape you need are for, enter 1 for circle, 2 for rectangle or 3 for triangle");
       int shapeid = console.nextInt();
       if (shapeid == 1){
          System.out.println("enter radius of the circle");
@@ -30,7 +30,7 @@ public class MainSl17 {
          System.out.println("enter side 2");
          double rside2 = console.nextDouble();
          Rectangle c = new Rectangle(rside1,rside2);
-         System.out.println("The are of the rectangle is:" + c.getArea());
+         System.out.println("The area of the rectangle is:" + c.getArea());
          }
      
       }
